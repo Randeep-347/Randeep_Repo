@@ -1,10 +1,16 @@
 package kaur;
 
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
 public class Welcome {
 
-	public static void main(String[] args) {
-		
+	
+		@Test
+		public void launch() {
+			Reporter.log("Added dependencies");
+		}
 
-	}
+	
 
 }
