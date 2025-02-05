@@ -9,8 +9,8 @@ public class Welcome {
 		@Test
 		public void launch() {
 			Reporter.log("Added dependencies");
+			Reporter.log("Sync the fork");
 		}
 
-	
-
 }
+ 
